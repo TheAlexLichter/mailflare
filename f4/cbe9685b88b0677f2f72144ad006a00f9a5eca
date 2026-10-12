@@ -1,0 +1,19 @@
+lint.config.ts
+  s_7a670609fc1d1e::t_d683facb53ab3b 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f4cbe9685b88b0677f2f72144ad006a00f9a5eca",
+  "prompts": {},
+  "sessions": {
+    "s_7a670609fc1d1e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10c84-13a8-7601-85e4-b52b18da5798",
+        "model": "unknown"
+      },
+      "human_author": "Alexander Lichter <alichter@cloudflare.com>"
+    }
+  }
+}

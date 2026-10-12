@@ -16,7 +16,7 @@ const lintConfig = {
     "browser": true,
     "node": true
   },
-  // These JS plugins keep rules that Oxlint has not ported natively.
+  // These JS plugins preserve coverage missing from native Oxlint.
   "jsPlugins": [
     {
       "name": "nextjs-js",
@@ -41,8 +41,6 @@ const lintConfig = {
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-undef": "error",
-    "react-js/jsx-uses-react": "error",
-    "react-js/jsx-uses-vars": "error",
     "react/no-children-prop": "error",
     "react/no-danger-with-children": "error",
     "react-js/no-deprecated": "error",
